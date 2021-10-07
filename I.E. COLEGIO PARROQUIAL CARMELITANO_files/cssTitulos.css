@@ -1,0 +1,55 @@
+﻿
+
+.BarraTituloContenedor { /*Contenedor del Titulo*/
+    margin-top:0px ;
+    background-image: url('../images/titulos/BannerP3.png'); /*Imagen que Quiere de fondo para la barra de titulo*/
+    background-color: lightgray;
+    background-repeat: no-repeat;
+    background-position: left top;
+    width: 100%; /*Ancho Total o Espacio de Contenido*/
+    height: 180px; /*Alto de la imagen de background*/
+}
+
+.BarraTituloIcono {
+   height: 180px; /*Alto de la imagen background*/
+   width: 150px;  /*Ancho del espacio donde debe quedar el icono*/
+   text-align: center; 
+   vertical-align: middle; 
+   display: table-cell;
+}
+
+.BarraTituloTextoEspacio{
+   height: 180px; 
+   width: 900px; 
+   vertical-align: middle; 
+   text-align: center; 
+   display:table-cell;
+}
+              
+.TituloPIPESoft{  /*Titulo 3D Este se aplicara a los titulos de pipesoft*/
+    color:crimson;
+    font-size: 36px; /*12em*/
+    font-weight: bold;
+    font-family: Helvetica;
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+}
+
+.TituloNeon{text-align: left; /*No se aplica se tiene como opcion*/
+font-family: Arial; 
+font-size: 30px; 
+COLOR: #1278BF; 
+text-shadow: 0px 0px 9px #508AD3;
+}
+
+.TituloRelieve {    /*no se aplica se tiene como opcion*/
+text-align: left; 
+font-family: Arial Black; 
+font-weight: bold; font-size: 30px; 
+background: #202020; 
+-webkit-background-clip: text; 
+-moz-background-clip: text; 
+background-clip: text; 
+color: transparent; 
+text-shadow: 0px 3px 3px rgba(255,255,255,0.4),0px -1px 1px rgba(0,0,0,0.3);
+}
+
